@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>EventHub</groupId>
+    <artifactId>EventHub</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>Event Hub: Central Message Processing Unit</name>
+    <description>Allows multiple asynchronous components of your app to communicate with each other</description>
+    <url>http://akshaydeo.github.io/event_hub</url>
+    <licenses></licenses>
+    <organization>
+        <name>RainingClouds Pvt Ltd</name>
+        <url>http://rainingclouds.com</url>
+    </organization>
+    <developers>
+        <developer>
+            <name>Akshay Deo</name>
+            <email>akshaymdeo@gmail.com</email>
+        </developer>
+    </developers>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+    </dependencies>
+
+</project>
